@@ -12,9 +12,9 @@ a{
 
 .hero{
   background-color: #1F2937;
-  font-size: 18px;
+  font-size: 20px;
   color: #E5E7EB;
-  padding: 20px;
+  padding: 20px 15%;
   flex: 1;
 }
 
@@ -27,36 +27,96 @@ a{
   margin-left: auto;
 }
 
+.intro{
+  display: flex;
+  gap: 50px;
+  padding: 100px 0px;
+}
+
+#titleimg{
+  width: 550px;
+}
+
+.signup h2{
+  font-size: 48px;
+  font-weight: 1000;
+  margin: 0;
+}
+
+button{
+  font-weight: 900;
+  padding: 9px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+
+  border: none;
+  color: #E5E7EB;
+  background-color: #3882f6;
+}
+
 .content{
   background-color: white;
   font-size: 36px;
   font-weight: 900;
   text-align: center;
   color: #1F2937;
-  padding: 20px;
+  padding: 20px 10px;
   flex: 1;
 }
 
 .imgdisplay{
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
 }
 
 .imgbox{
-  width: 100px;
-  border: #3882f6;
-  border-width: 3px;
+  width: 200px;
+}
 
+.imgbox img{
+  width: 100%;
+  height: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+  object-fit: cover
 }
 
 .filler{
   background-color: #E5E7EB;
-  flex: 1;
+  padding: 5% 20%;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .foot{
   flex: 1;
+  padding: 5% 15%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footbox{
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 4% 12%;
+
+  display: flex;
+}
+
+.footbox button{
+  border-style: solid;
+}
+
+.footer{
+  background-color: #1F2937;
+  font-size: larger;
+  padding: 2%;
+  color: #E5E7EB;
+  text-align: center;
 }
