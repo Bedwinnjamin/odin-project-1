@@ -3,6 +3,7 @@ body{
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -21,6 +22,10 @@ a{
 .header{
   display: flex;
   gap: 20px;
+}
+
+.logo{
+  font-weight: 1000;
 }
 
 #pusher{
@@ -89,7 +94,7 @@ button{
   padding: 5% 20%;
   color: #1F2937;
   font-size: 36px;
-  font-weight: 100;
+  font-weight: lighter;
   font-style: italic;
 }
 
@@ -105,8 +110,20 @@ button{
   background-color: #3882f6;
   border-radius: 10px;
   padding: 4% 12%;
-
+  color: #E5E7EB;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#foottitle{
+  font-size: 24px;
+  font-weight: bolder;
+
+}
+
+.footbox p{
+  margin: 0;
 }
 
 .footbox button{
